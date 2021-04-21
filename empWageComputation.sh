@@ -6,7 +6,7 @@ empCheck=$((RANDOM%2))
 if  [ $empCheck -eq 1 ]
 then
         empWage=20;
-        empHrs=10;
+        empHrs=8;
       echo =$(($empWage*$empHrs))
 
 else 
